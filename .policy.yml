@@ -1,0 +1,14 @@
+policy:
+  approval:
+    - one approval from ilone
+
+approval_rules:
+  - name: one approval from ilone
+    requires:
+      count: 1
+      users: ["ImranL"]
+    options:
+      methods:
+        comments:
+          - ":+1:"
+          - "👍"
